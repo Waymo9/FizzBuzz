@@ -5,7 +5,8 @@
 # - For all other numbers, it prints the number itself.
 
 # Iterate through each number from 1 to 100.
-(1..100).each do |number|
+def fizzbuzz_general
+  (1..100).each do |number|
     
     # Check if the number is a multiple of both 3 and 5.
     if number % 3 == 0 && number % 5 == 0
@@ -28,6 +29,7 @@
       puts number
     end
   end
+end
   
 
   
