@@ -5,11 +5,11 @@ require_relative 'FizzBuzzN'
 # Run the general FizzBuzz by default
 fizzbuzz_general()
 
-# Optionally handle command line arguments for custom range or testing
+# Handle command line arguments for custom range or testing
 if ARGV.length > 0
   case ARGV[0]
   when "test"
-    # Run tests from command line (alternative to using RSpec directly)
+    # Run tests from command line
     require 'rspec'
     RSpec::Core::Runner.run(['../spec/FizzBuzz_spec.rb'])
   else
