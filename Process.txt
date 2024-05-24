@@ -5,7 +5,8 @@
 5. Call "bundle install" -> installs rspec (Ruby testing framework)
 6. Call "rspec --init" -> creates a 'spec' directory and '.rspec' config file
 7. Create 'FizzBuzz_spec.rb' in 'spec' directory. This will be the test file.
-8.
+8. Write unit tests
+9. Set up Github Actions
 
 
 
