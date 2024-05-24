@@ -1,0 +1,25 @@
+1. Download Ruby
+2. Create FizzBuzz Ruby script in 'FizzBuzz.rb' (*Summary of what I learned below*)
+3. Call "gem install bundler" in terminal -> Installs Bundler, A Ruby gem management tool
+4. Call "bundle init" in terminal -> Creates Gemfile (Similar to Makefile??)
+5. Call "bundle install" -> installs rspec (Ruby testing framework)
+6. Call "rspec --init" -> creates a 'spec' directory and '.rspec' config file
+7. Create 'FizzBuzz_spec.rb' in 'spec' directory. This will be the test file.
+8.
+
+
+
+
+
+
+
+
+
+
+
+New ideas in Ruby:
+- Range (1..100): The range operator .. creates a sequence from the start number (1) to the end number (100), inclusive of both.
+- each method: This is used to iterate over each element of the range. In this context, it iterates from 1 to 100, applying the block of code to each number.
+- Block variable |number|: This represents the current number in the iteration.
+- if, elsif, else: These structures is used for conditional execution. (Only elsif different from other PGLs I've worked with)
+- puts method: This is used to print something to the console. In this script, it prints either "FizzBuzz", "Fizz", "Buzz", or the number itself.
